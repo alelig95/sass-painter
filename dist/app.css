@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Newsreader", serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+}
+.container .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  height: 80px;
+  color: white;
+  font-size: 17px;
+}
+.container .navbar li {
+  display: inline-block;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.container .jumbotron {
+  background-image: url("../img/hero-pe-8.jpg");
+  position: relative;
+  background-size: auto;
+  right: 350px;
+  height: 500px;
+  width: 1885px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .jumbotron-left {
+  height: 400px;
+  margin-left: 595px;
+  font-size: 19px;
+}
+.container .jumbotron-left h2 {
+  margin-bottom: 10px;
+}
+.container .jumbotron-left .purple {
+  color: purple;
+}
+.container .jumbotron-left li {
+  margin-top: 20px;
+}
+.container .jumbotron-left button {
+  border: black solid 2px;
+  padding: 0 20px;
+  width: 250px;
+  height: 60px;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.container .jumbotron-left button .right-button i {
+  font-size: 20px;
+}
+.container .jumbotron-right {
+  margin-left: 200px;
+  width: 400px;
+  height: 470px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .jumbotron-right-a {
+  margin-top: 40px;
+}
+.container .jumbotron-right-a p {
+  margin-top: 10px;
+  color: #ccc;
+}
+.container .jumbotron-right-a button {
+  width: 170px;
+  height: 33px;
+  color: white;
+  background-color: #28acff;
+  border: 0;
+  margin-top: 20px;
+}
+.container .jumbotron-right-b img {
+  height: 90px;
+}

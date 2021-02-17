@@ -1,0 +1,125 @@
+@import "colors";
+@import "font";
+$bg-jumbotron-image: "../img/hero-pe-8.jpg";
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: $font-page;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.container{
+  width: 100%;
+
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    height: 80px;
+    color: white;
+    font-size: 17px;
+
+    li{
+      display: inline-block;
+      padding-right: 40px;
+      padding-bottom: 15px;
+    }
+
+  }
+
+  .jumbotron{
+    background-image: url($bg-jumbotron-image);
+    position: relative;
+    background-size: auto;
+    right: 350px;
+    height: 500px;
+    width: 1885px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-left{
+      height: 400px;
+      margin-left: 595px;
+      font-size: 19px;
+
+      h2{
+        margin-bottom: 10px;
+      }
+
+      .purple{
+        color: $span-title-color;
+      }
+
+      li{
+        margin-top: 20px;
+      }
+
+      button{
+        border: black solid 2px;
+        padding: 0 20px;
+        width: 250px;
+        height: 60px;
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+
+        .right-button{
+          
+          i{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    &-right{
+      margin-left: 200px;
+      width: 400px;
+      height: 470px;
+      color: white;
+      background-color: black;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    
+
+      &-a{
+        margin-top: 40px;
+
+        p{
+          margin-top: 10px;
+          color: #ccc;
+        }
+
+        button{
+          width: 170px;
+          height: 33px;
+          color: white;
+          background-color: $button-color;
+          border: 0;
+          margin-top: 20px;
+        }
+      }
+
+      &-b{
+
+        img{
+          height: 90px;
+        }
+      }
+    }
+  }
+
+}
